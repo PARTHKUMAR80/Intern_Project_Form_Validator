@@ -1,0 +1,199 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color: #333; */
+    background: linear-gradient(
+        to right,
+        rgb(0, 0, 255),
+        rgb(245, 96, 245)
+        /* rgb(255, 107, 255), */
+        /* rgb(212, 73, 97) */
+    );
+    /* min-height: 100vh; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+}
+.main-box{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border: 1px solid white;
+    background-color: white;
+    padding-top: 24px;
+    padding-bottom: 10px;
+    padding-left: 62px;
+    padding-right: 62px;
+    border-radius: 15px;
+    box-shadow: 0 0 3px 5px green;
+}
+.main-box .heading{
+    border-bottom: 3px solid green;
+    text-shadow: 1px 1px blue;
+    font-weight: bold;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+.he-1{
+    font-size: 5rem;
+    background-color: #ff7676;;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+form .wrap{
+    /* border: 1px solid pink; */
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+form .wrap label{
+    font-size: 2rem;
+    font-weight: bold;
+    /* border: 1px solid blue; */
+    margin-bottom: 5px;
+    border-radius: 10px;
+    /* box-shadow: 0 0 3px 3px blue; */
+}
+form .wrap input{
+    padding-left: 4px;
+    font-size: 1.3rem;
+    border: none;
+    border-bottom: 2px solid green;
+    background-color: #d6e3e3;
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+form .btn-div{
+    /* border: 1px solid red; */
+    padding: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form .btn-div button{
+    cursor: pointer;
+    border-radius: 16px;
+    background: linear-gradient(
+        to right,
+        #00ff00,
+        #08bbff
+    );
+    color: #333;
+    font-size: 2rem;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-weight: bold;
+}
+.error-msg{
+    font-size: 0.8rem;
+    color: red;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* media queries */
+
+@media (max-width:636px){
+    .main-box{
+        margin-top: 50px;
+        margin-bottom: 0px;
+    }
+    .main-box .heading{
+        font-size: 3rem;
+    }
+    form .wrap label{
+        font-size: 1.4rem;
+    }
+    form .wrap input{
+        font-size: 0.8rem;
+    }
+    form .btn-div button{
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width:405px){
+    .main-box{
+        margin-top: 70px;
+        margin-bottom: 0px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .main-box .heading{
+        font-size: 2.6rem;
+    }
+    form .wrap label{
+        font-size: 1.2rem;
+    }
+    form .wrap input{
+        font-size: 0.6rem;
+    }
+    form .btn-div button{
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width:313px){
+    .main-box{
+        margin-top: 100px;
+        margin-bottom: 0px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .main-box .heading{
+        font-size: 2.2rem;
+    }
+    form .wrap label{
+        font-size: 1rem;
+    }
+    form .wrap input{
+        font-size: 0.4rem;
+    }
+    form .btn-div button{
+        font-size: 0.8rem;
+    }
+    .error-msg{
+        font-size: 0.4rem;
+    }
+}
+
+@media (max-width:256px){
+    .main-box{
+        margin-top: 120px;
+        margin-bottom: 0px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .main-box .heading{
+        font-size: 2rem;
+    }
+    form .wrap label{
+        font-size: 0.7rem;
+    }
+    form .wrap input{
+        font-size: 0.3rem;
+    }
+    form .btn-div button{
+        font-size: 0.6rem;
+    }
+    .error-msg{
+        font-size: 0.3rem;
+    }    
+}
+
+
+
+
+
+
+
+
+
+
